@@ -1,6 +1,7 @@
-;;; twilight-theme.el --- Twilight theme for GNU Emacs 24 (deftheme)
-;; Version: 1.0.0
+;;; twilight-theme.el --- Twilight theme for GNU Emacs 29 (deftheme)
+;; Version: 1.1.0
 ;; Author: Nick Parker <nickp@developernotes.com>
+;; Author: Nick Parker <paaguti@gamil.com> for the emacs 29+ adaptation
 ;;
 ;; Defines a colour scheme resembling that of the original TextMate Twilight colour theme.
 ;; To use add the following to your .emacs file (requires the color-theme package):
@@ -55,10 +56,14 @@
  '(gui-element ((t (:background "#D4D0C8" :foreground "black"))))
  '(region ((t (:background "#27292A"))))
  '(fringe ((t (:background "#242424"))))
- '(mode-line ((t (:background "#343434" :foreground "#f4f4f4"))))
- '(mode-line-inactive ((t (:background "#44444444" :foreground "#b4b4b4"))))
+ '(mode-line ((t (:background "#343434" :foreground "#d4d4d4"))))
+ '(mode-line-inactive ((t (:background "#444444" :foreground "#b4b4b4"))))
  '(line-number ((t (:background "#242424" :foreground "#b4b4b4"))))
  '(line-number-current-line ((t (:background "#242424" :foreground "#e4e4e4" :bold t))))
+ '(tab-line ((t (:background "#242424"))))
+ '(tab-line-tab-inactive ((t (:background "#343434" :foreground "#c4c4c4"))))
+ '(tab-line-tab-current ((t (:background "#242424" :foreground "#d4d4d4"))))
+ '(tab-line-tab-modified ((t (:foreground "#d46464"))))
  '(highlight ((t (:background "#111111"))))
  '(highline-face ((t (:background "SeaGreen"))))
  '(left-margin ((t (nil))))
