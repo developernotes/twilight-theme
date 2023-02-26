@@ -1,6 +1,7 @@
-;;; twilight-theme.el --- Twilight theme for GNU Emacs 24 (deftheme)
-;; Version: 1.0.0
+;;; twilight-theme.el --- Twilight theme for GNU Emacs 29 (deftheme)
+;; Version: 1.1.0
 ;; Author: Nick Parker <nickp@developernotes.com>
+;; Author: Pedro A. Aranda <paaguti@gmail.com> for the emacs 29+ adaptation
 ;;
 ;; Defines a colour scheme resembling that of the original TextMate Twilight colour theme.
 ;; To use add the following to your .emacs file (requires the color-theme package):
@@ -47,14 +48,22 @@
  '(ido-subdir ((t (:foreground "#CF6A4C"))))
  '(ido-first-match ((t (:foreground "#8F9D6A"))))
  '(ido-only-match ((t (:foreground "#8F9D6A"))))
- '(mumamo-background-chunk-submode ((t (:background "#222222")))) 
+ '(mumamo-background-chunk-submode ((t (:background "#222222"))))
  '(font-lock-string-face ((t (:foreground "#8F9D6A"))))
  '(font-lock-type-face ((t (:foreground "#9B703F"))))
  '(font-lock-variable-name-face ((t (:foreground "#7587A6"))))
  '(font-lock-warning-face ((t (:background "#EE799F" :foreground "red"))))
  '(gui-element ((t (:background "#D4D0C8" :foreground "black"))))
  '(region ((t (:background "#27292A"))))
- '(mode-line ((t (:background "grey75" :foreground "black"))))
+ '(fringe ((t (:background "#242424"))))
+ '(mode-line ((t (:background "#343434" :foreground "#d4d4d4"))))
+ '(mode-line-inactive ((t (:background "#444444" :foreground "#b4b4b4"))))
+ '(line-number ((t (:background "#242424" :foreground "#b4b4b4"))))
+ '(line-number-current-line ((t (:background "#242424" :foreground "#e4e4e4" :bold t))))
+ '(tab-line ((t (:background "#242424"))))
+ '(tab-line-tab-inactive ((t (:background "#343434" :foreground "#b4b4b4"))))
+ '(tab-line-tab-current ((t (:background "#242424" :foreground "#d4d4d4"))))
+ '(tab-line-tab-modified ((t (:foreground "#d46464"))))
  '(highlight ((t (:background "#111111"))))
  '(highline-face ((t (:background "SeaGreen"))))
  '(left-margin ((t (nil))))
