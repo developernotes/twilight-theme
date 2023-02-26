@@ -61,7 +61,7 @@
  '(line-number ((t (:background "#242424" :foreground "#b4b4b4"))))
  '(line-number-current-line ((t (:background "#242424" :foreground "#e4e4e4" :bold t))))
  '(tab-line ((t (:background "#242424"))))
- '(tab-line-tab-inactive ((t (:background "#343434" :foreground "#c4c4c4"))))
+ '(tab-line-tab-inactive ((t (:background "#343434" :foreground "#b4b4b4"))))
  '(tab-line-tab-current ((t (:background "#242424" :foreground "#d4d4d4"))))
  '(tab-line-tab-modified ((t (:foreground "#d46464"))))
  '(highlight ((t (:background "#111111"))))
