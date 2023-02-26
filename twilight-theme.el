@@ -1,7 +1,7 @@
 ;;; twilight-theme.el --- Twilight theme for GNU Emacs 29 (deftheme)
 ;; Version: 1.1.0
 ;; Author: Nick Parker <nickp@developernotes.com>
-;; Author: Nick Parker <paaguti@gamil.com> for the emacs 29+ adaptation
+;; Author: Pedro A. Aranda <paaguti@gmail.com> for the emacs 29+ adaptation
 ;;
 ;; Defines a colour scheme resembling that of the original TextMate Twilight colour theme.
 ;; To use add the following to your .emacs file (requires the color-theme package):
